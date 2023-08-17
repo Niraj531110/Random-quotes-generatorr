@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: red;
+    transition: background-color 0.5s ease;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    width: 400px;
+    background-color: whitesmoke;
+
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#quote-box {
+    margin-bottom: 20px;
+}
+
+#quote-text {
+    font-size: 24px;
+}
+
+#quote-author {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+#icons {
+    margin-top: 20px;
+
+
+}
+
+
+
+
+
+
+
+#next-button {
+
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#next-button:hover {
+    background-color: #0056b3;
+
+
+}
+
+#credit {
+    position: absolute;
+    text-align: center;
+
+    bottom: 25vh;
+}
